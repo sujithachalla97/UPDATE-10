@@ -301,13 +301,11 @@
     margin-left:20px;
 }
 
-/-----------------------------------\
-  #FOOTER
-\-----------------------------------/
+
 
 .footer {
     font-size: var(--fs-8);
-    padding: 40px;
+    padding: 10px;
 }
 
 .footer a {
@@ -392,6 +390,7 @@
     padding-block: 10px;
 }
 
+
 .footer-item-icon {
     background-image: var(--gradient-2);
     padding: 13px;
@@ -415,9 +414,6 @@
     text-decoration: none;
 }
 
-/-----------------------------------\
-  #MEDIA QUERIES
-\-----------------------------------/
 
 /* responsive for smaller than 576px screen */
 @media (max-width: 575px) {
@@ -475,7 +471,7 @@
 @media (min-width: 992px) {
     .footer-top .containerf {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 50px;
     }
 
@@ -496,7 +492,7 @@
 /* responsive for larger than 1200px screen */
 @media (min-width: 1200px) {
     .footer-top .containerf {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 50px;
     }
 
@@ -807,6 +803,7 @@ body {
         height: 250px; /* Adjust image height for medium screens */
     }
 }
+
 
 @media screen and (max-width: 400px) {
     .cover {
