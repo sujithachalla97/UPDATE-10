@@ -1,5 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
 
+/* Root Variables */
+:root {
+    --winter-sky: #007BFF;
+    /* Winter sky color */
+    --white: #FFFFFF;
+    /* White color */
+    --radius-4: 4px;
+    /* Border radius */
+    --winter-sky_50: rgba(0, 123, 255, 0.5);
+    /* Winter sky with opacity */
+    --transition-1: all 0.3s ease-in-out;
+    /* Transition */
+}
+
+/*-----------------------------------*\
+  #goto top
+\*-----------------------------------*/
+/* Initially hidden */
+.go-top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+  opacity: 0; /* Initially invisible */
+}
+
+.go-top.active {
+  display: block;
+  opacity: 1; /* Make visible when active */
+}
 
 
 /* Root Variables */
