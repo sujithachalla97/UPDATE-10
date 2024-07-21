@@ -83,6 +83,7 @@
     list-style: none;
 }
 
+
 /* dropdowns */
 .paste-button {
     position: relative;
@@ -324,9 +325,6 @@ html, body {
     padding: 100px 200px;
 }*/
 
-/-----------------------------------\
-  #FOOTER
-\-----------------------------------/
 
 .footer {
     font-size: var(--fs-8);
@@ -438,9 +436,6 @@ html, body {
     text-decoration: none;
 }
 
-/-----------------------------------\
-  #MEDIA QUERIES
-\-----------------------------------/
 
 /* responsive for smaller than 576px screen */
 @media (max-width: 575px) {
@@ -498,7 +493,7 @@ html, body {
 @media (min-width: 992px) {
     .footer-top .container {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 50px;
     }
 
@@ -519,7 +514,7 @@ html, body {
 /* responsive for larger than 1200px screen */
 @media (min-width: 1200px) {
     .footer-top .container {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 50px;
     }
 
