@@ -2433,28 +2433,55 @@ section {
     /* Transition */
 }
 
+
+/* Root Variables */
+:root {
+    --winter-sky: #007BFF;
+    /* Winter sky color */
+    --white: #FFFFFF;
+    /* White color */
+    --radius-4: 4px;
+    /* Border radius */
+    --winter-sky_50: rgba(0, 123, 255, 0.5);
+    /* Winter sky with opacity */
+    --transition-1: all 0.3s ease-in-out;
+    /* Transition */
+}
 /*-----------------------------------*\
   #goto top
 \*-----------------------------------*/
-/* Initially hidden */
-.go-top {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: opacity 0.3s ease;
-  opacity: 0; /* Initially invisible */
-}
 
-.go-top.active {
-  display: block;
-  opacity: 1; /* Make visible when active */
+/* Go Top Button Styling */
+.go-top {
+    position: fixed;
+    /* Fixed positioning */
+    bottom: 15px;
+    /* Bottom position */
+    right: 15px;
+    /* Right position */
+    background-color: var(--winter-sky);
+    /* Background color */
+    color: var(--white);
+    display: none;
+    /* Text color */
+    font-size: 2rem;
+    /* Font size */
+    padding: 14px;
+    /* Padding */
+    border-radius: var(--radius-4);
+    /* Rounded corners */
+    box-shadow: -3px 3px 15px var(--winter-sky_50);
+    /* Box shadow */
+    z-index: 1;
+    /* Z-index */
+    opacity: 0.8;
+    /* Opacity */
+    transition: var(--transition-1);
+    /* Transition */
+}
+.go-top.active{
+    display: block;
+     opacity: 1;
 }
 
 
