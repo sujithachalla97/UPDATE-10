@@ -1,9 +1,29 @@
-document.getElementById('menu-icon').addEventListener('click', function() {
-    document.querySelector('.navbar').classList.toggle('active');
-});
 // Toggle the 'active' class on the navbar when the menu icon is clicked
 document.getElementById('menu-icon').addEventListener('click', function() {
     document.querySelector('.navbar').classList.toggle('active');
+});
+/**
+ * Activate header and go-top button when scrolling down 400px
+ */
+const header = document.querySelector("[data-header]");
+const goTopBtn = document.querySelector("[data-go-top]");
+
+window.addEventListener("scroll", function() {
+    if (window.scrollY >= 100) {
+        header.classList.add("active");
+        goTopBtn.classList.add("active");
+    } else {
+        header.classList.remove("active");
+        goTopBtn.classList.remove("active");
+    }
+});
+
+// Smooth scroll to top when button is clicked
+goTopBtn.addEventListener("click", function() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
 });
 
 /**
@@ -15,21 +35,7 @@ const slides = document.querySelectorAll(".video-slide");
 const contents = document.querySelectorAll(".content");
 
 
-/**
- * Activate header and go-top button when scrolling down 400px
- */
-const header = document.querySelector("[data-header]");
-const goTopBtn = document.querySelector("[data-go-top]");
 
-window.addEventListener("scroll", function() {
-    if (window.scrollY >= 400) {
-        header.classList.add("active");
-        goTopBtn.classList.add("active");
-    } else {
-        header.classList.remove("active");
-        goTopBtn.classList.remove("active");
-    }
-});
 
 
 //! Chart JS
@@ -48,7 +54,7 @@ const chartData = {
       labels: ['First Year', 'Second Year', 'Third Year'],
       datasets: [
         {
-          label: "# of Events",
+          label: "# Members",
           data: [49,51,31],
           backgroundColor: ["#582bac", "#b31a4d", "#e48e2c", "#4a920f"],
           offset: 10,
