@@ -181,16 +181,23 @@ document.addEventListener("DOMContentLoaded", function() {
 
 /**
  * Activate header and go-top button when scrolling down 400px
- */
-const header = document.querySelector("[data-header]");
+ */const header = document.querySelector("[data-header]");
 const goTopBtn = document.querySelector("[data-go-top]");
 
 window.addEventListener("scroll", function() {
-    if (window.scrollY >= 400) {
+    if (window.scrollY >= 100) {
         header.classList.add("active");
         goTopBtn.classList.add("active");
     } else {
         header.classList.remove("active");
         goTopBtn.classList.remove("active");
     }
+});
+
+// Smooth scroll to top when button is clicked
+goTopBtn.addEventListener("click", function() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
 });
