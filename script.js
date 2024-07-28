@@ -181,7 +181,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
 /**
  * Activate header and go-top button when scrolling down 400px
- */const header = document.querySelector("[data-header]");
+ */
+const header = document.querySelector("[data-header]");
 const goTopBtn = document.querySelector("[data-go-top]");
 
 window.addEventListener("scroll", function() {
@@ -200,4 +201,28 @@ goTopBtn.addEventListener("click", function() {
         top: 0,
         behavior: 'smooth'
     });
+});
+
+$('.testimonials-container').owlCarousel({
+    loop: true,
+    autoplay: true,
+    autoplayTimeout: 6000,
+    margin: 10,
+    nav: true,
+    navText: ["<i class='fa-solid fa-arrow-left'></i>",
+        "<i class='fa-solid fa-arrow-right'></i>"
+    ],
+    responsive: {
+        0: {
+            items: 1,
+            nav: false
+        },
+        600: {
+            items: 1,
+            nav: true
+        },
+        768: {
+            items: 2
+        },
+    }
 });
