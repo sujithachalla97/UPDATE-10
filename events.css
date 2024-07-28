@@ -957,3 +957,17 @@ body {
         max-width: 16rem;
     }
 }
+
+
+.date{
+  background:linear-gradient(90deg, #1e3c72, #2a5298);
+-webkit-background-clip: text;
+color: transparent;
+font-size: 1.2em;
+font-weight: bold;
+text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+
+}
+a{
+    text-decoration: none;
+}
