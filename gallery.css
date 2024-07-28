@@ -1938,10 +1938,10 @@ h1{
     outline: none;
     cursor: pointer;
   }
-  .portfolio .button-group .button.active{
+  /*.portfolio .button-group .button.active{
     background-color:#094449;
     color:#f6f9fe;
-  }
+  }*/
   .portfolio .button-group .button:hover{
     background-color:#05555c;
     color: #f6f9fe;
@@ -2021,4 +2021,35 @@ h1{
     }
   }
 
+  hr{
+    font-size: 0.5px;
+  }
+
+  .portfolio .button-group>.all{
+    background-color: #007BFF;
+    /* Background color */
+    color: var(--white);
+    width: 80px;
+   
+    font-size: 1rem;
+    /* Font size */
+    padding: 14px;
+    /* Padding */
+    border-radius: var(--radius-4);
+    /* Rounded corners */
+    box-shadow: -3px 3px 15px var(--winter-sky_50);
+    /* Box shadow */
+  
+    /* Z-index */
+    opacity: 0.8;
+    /* Opacity */
+    transition: var(--transition-1);
+    /* Transition */
+  }
+  .portfolio .button-group>.all:hover{
+    background-color: rgba(0, 123, 255, 0.5);
+    /* Background color */
+    color: var(--white);
+  }
+ /* --winter-sky_50: rgba(0, 123, 255, 0.5);
   
