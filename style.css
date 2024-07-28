@@ -2997,6 +2997,7 @@ testimonials {
 @media(max-width:576px) and (min-width:576px) {
     .testimonial-card .test-card-body {
         width: 80%;
+         min-height: 20vh;
     }
 }
 
@@ -3004,6 +3005,7 @@ testimonials {
     .testimonial-card .test-card-body {
         width: 80%;
         margin-left: 35px;
+         min-height: 20vh;
     }
 }
 
