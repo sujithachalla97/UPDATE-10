@@ -3109,7 +3109,7 @@ testimonials {
 @media(max-width:1200px) and (min-width:992px) {
     .testimonial-card .test-card-body {
        
-         height: 40vh;
+         height: 42vh;
     }
     .test-card-body .quote h2 {
         color: #e9e9e9;
