@@ -805,7 +805,7 @@ section {
 
 }
 
-@media(min-width:1200px) {
+@media(min-width:1300px) {
     .event-heading {
         margin-left: 9px;
     }
@@ -820,6 +820,51 @@ section {
 
     .glimse {
         margin-left: 420px;
+    }
+
+    .logos {
+
+
+        padding: 60px 0;
+        width: 149%;
+        overflow: hidden;
+        margin-left: -200px;
+        white-space: nowrap;
+        position: relative;
+    }
+
+    .logos1 {
+
+
+        padding: 60px 0;
+        width: 149%;
+        overflow: hidden;
+        margin-left: -200px;
+        white-space: nowrap;
+        position: relative;
+    }
+
+}
+
+
+
+
+
+@media(max-width:1300px) and (min-width:1200px) {
+    .event-heading {
+        margin-left: 9px;
+    }
+
+    .event-banner-image {
+        height: 336px;
+        width: 656px;
+        margin-left: 506px;
+
+
+    }
+
+    .glimse {
+        margin-left: 250px;
     }
 
     .logos {
