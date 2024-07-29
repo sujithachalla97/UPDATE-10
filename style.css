@@ -2216,7 +2216,7 @@ section {
         /* Left margin */
         margin-right: 55px;
         /* Right margin */
-        width: 140%;
+        width: 132%;
         /* Increased width */
     }
 
@@ -3104,7 +3104,7 @@ testimonials {
 @media(max-width:992px) and (min-width:768px) {
     .testimonial-card .test-card-body {
               width: 82%;
-        height: 41vh;
+        min-height: 20vh;
     }
 }
 @media(max-width:1200px) and (min-width:992px) {
