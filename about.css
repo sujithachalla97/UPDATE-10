@@ -693,7 +693,7 @@ p {
 
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1300px) {
 
     .section-title {
         --fs-3: 4.6rem;
@@ -701,6 +701,28 @@ p {
 
     .service-list {
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    .service {
+        margin-left: -20px;
+        margin-right: 40px;
+        margin-bottom: 30px;
+
+    }
+
+
+
+
+}
+@media (min-width: 1200px) and (max-width:1300px) {
+
+    .section-title {
+        --fs-3: 4.6rem;
+    }
+
+    .service-list {
+        grid-template-columns: repeat(3, 1fr);
+        margin-left:-150px;
     }
 
     .service {
