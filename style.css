@@ -3118,7 +3118,7 @@ testimonials {
         font-size: 20px;
     }
 }
-@media(min-width:1200px) and (max-width:1300px) {
+@media(min-width:1200px)  {
     .testimonial-card .test-card-body {
        
          height: 35vh;
@@ -3127,12 +3127,7 @@ testimonials {
         margin-left:-10px;
     }
 }
-@media(min-width:1300px) {
-    .testimonial-card .test-card-body {
-       
-         height: 38vh;
-    }
-}
+
 .test-card-body .quote {
     display: flex;
     align-items: center;
