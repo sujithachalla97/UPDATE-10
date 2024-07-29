@@ -2203,7 +2203,7 @@ section {
     font-size: 26px;
     /* Font size */
 }
-@media (max-width: 1300px) {
+@media (min-width: 1300px) {
     .profile-card {
         width: 220px;
         /* Fixed width */
@@ -2212,11 +2212,11 @@ section {
     }
 
     .home-container {
-        margin-left: -160px;
+        margin-left: -150px;
         /* Left margin */
         margin-right: 55px;
         /* Right margin */
-        width: 142%;
+        width: 152%;
         /* Increased width */
     }
 
@@ -2253,7 +2253,7 @@ section {
         /* Left margin */
         margin-right: 55px;
         /* Right margin */
-        width: 142%;
+        width: 137%;
         /* Increased width */
     }
 
