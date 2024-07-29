@@ -2203,7 +2203,80 @@ section {
     font-size: 26px;
     /* Font size */
 }
+@media (max-width: 1300px) {
+    .profile-card {
+        width: 220px;
+        /* Fixed width */
+        height: 220px;
+        /* Fixed height */
+    }
 
+    .home-container {
+        margin-left: -160px;
+        /* Left margin */
+        margin-right: 15px;
+        /* Right margin */
+        width: 142%;
+        /* Increased width */
+    }
+
+    .profile-card:hover {
+        height: 220px;
+        /* Fixed height on hover */
+    }
+
+    .caption h3 {
+        font-size: 18px;
+        /* Smaller font size */
+    }
+
+    .caption p {
+        font-size: 13px;
+        /* Smaller font size */
+    }
+
+    .caption .social-links i {
+        font-size: 18px;
+        /* Smaller font size */
+    }
+}
+@media (min-width: 1200px) and (max-width:1300px) {
+    .profile-card {
+        width: 220px;
+        /* Fixed width */
+        height: 220px;
+        /* Fixed height */
+    }
+
+    .home-container {
+        margin-left: -160px;
+        /* Left margin */
+        margin-right: 15px;
+        /* Right margin */
+        width: 142%;
+        /* Increased width */
+    }
+
+    .profile-card:hover {
+        height: 220px;
+        /* Fixed height on hover */
+    }
+
+    .caption h3 {
+        font-size: 18px;
+        /* Smaller font size */
+    }
+
+    .caption p {
+        font-size: 13px;
+        /* Smaller font size */
+    }
+
+    .caption .social-links i {
+        font-size: 18px;
+        /* Smaller font size */
+    }
+}
 /* Media Query for Screens <= 1200px */
 @media (max-width: 1200px) {
     .profile-card {
@@ -3034,6 +3107,21 @@ testimonials {
     }
 }
 @media(max-width:1200px) and (min-width:992px) {
+    .testimonial-card .test-card-body {
+       
+         height: 13vh;
+    }
+}
+@media(min-width:1200px) and (max-width:1300px) {
+    .testimonial-card .test-card-body {
+       
+         height: 13vh;
+    }
+    .testimonials{
+        margin-left:-10px;
+    }
+}
+@media(min-width:1300px) {
     .testimonial-card .test-card-body {
        
          height: 13vh;
