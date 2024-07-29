@@ -3098,13 +3098,13 @@ testimonials {
     .testimonial-card .test-card-body {
         width: 80%;
         margin-left: 35px;
-         min-height: 20vh;
+         min-height: 5vh;
     }
 }
 @media(max-width:992px) and (min-width:768px) {
     .testimonial-card .test-card-body {
               width: 82%;
-        min-height: 20vh;
+        min-height: 5vh;
     }
 }
 @media(max-width:1200px) and (min-width:992px) {
