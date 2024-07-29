@@ -2249,7 +2249,7 @@ section {
     }
 
     .home-container {
-        margin-left: -160px;
+        margin-left: -130px;
         /* Left margin */
         margin-right: 55px;
         /* Right margin */
@@ -3121,7 +3121,7 @@ testimonials {
 @media(min-width:1200px)  {
     .testimonial-card .test-card-body {
        
-         height: 35vh;
+         height: 40vh;
     }
     .testimonials{
         margin-left:30px;
