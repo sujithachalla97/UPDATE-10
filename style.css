@@ -3118,10 +3118,19 @@ testimonials {
         font-size: 20px;
     }
 }
-@media(min-width:1200px)  {
+@media(min-width:1200px)  and (max-width:1300px) {
     .testimonial-card .test-card-body {
        
-         height: 40vh;
+         height: 42vh;
+    }
+    .testimonials{
+        margin-left:30px;
+    }
+}
+@media(min-width:1300px)  {
+    .testimonial-card .test-card-body {
+       
+         height: 35vh;
     }
     .testimonials{
         margin-left:30px;
