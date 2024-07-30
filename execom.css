@@ -407,6 +407,8 @@ body {
     color: #fff;
     cursor: pointer;
     display: none;
+    position:absolute;
+    left:90%;
 }
 /*
 @media (max-width: 1280px) {
