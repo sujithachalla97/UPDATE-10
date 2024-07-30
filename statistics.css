@@ -667,7 +667,7 @@ h1{
 
 /* section 2*/
 .wrapper1 {
-    max-width: 1100px;
+    min-width: 1100px;
     margin: 0 auto;
   }
   .wrapper1 h1{
