@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
 :root {
 
@@ -301,11 +302,13 @@
     margin-left:20px;
 }
 
-
+/-----------------------------------\
+  #FOOTER
+\-----------------------------------/
 
 .footer {
     font-size: var(--fs-8);
-    padding: 10px;
+    padding: 40px;
 }
 
 .footer a {
@@ -390,7 +393,6 @@
     padding-block: 10px;
 }
 
-
 .footer-item-icon {
     background-image: var(--gradient-2);
     padding: 13px;
@@ -414,6 +416,9 @@
     text-decoration: none;
 }
 
+/-----------------------------------\
+  #MEDIA QUERIES
+\-----------------------------------/
 
 /* responsive for smaller than 576px screen */
 @media (max-width: 575px) {
@@ -471,7 +476,7 @@
 @media (min-width: 992px) {
     .footer-top .containerf {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         gap: 50px;
     }
 
@@ -492,7 +497,7 @@
 /* responsive for larger than 1200px screen */
 @media (min-width: 1200px) {
     .footer-top .containerf {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         gap: 50px;
     }
 
@@ -519,7 +524,7 @@
        left:60%;
        width:40%;
         z-index: 1;
-            background: #0F1156;
+        background-color:blue;
         
        display:none;
       
@@ -593,22 +598,9 @@
        left:50%;
        width:50%;
        right:0;
-       
     }
 }
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-body {
-    width: 100%;
-    margin-top: 30px;
-       background: #0F1156;
-    min-height: 160vh;
-     overflow-x: hidden; /* Prevent horizontal scrolling */
-}
 
 .timeline {
     margin-top: 120px;
@@ -804,7 +796,6 @@ body {
     }
 }
 
-
 @media screen and (max-width: 400px) {
     .cover {
         width: 100%;
@@ -957,7 +948,7 @@ body {
         max-width: 16rem;
     }
 }
-
+*/
 
 .date{
   background:linear-gradient(90deg, #1e3c72, #2a5298);
