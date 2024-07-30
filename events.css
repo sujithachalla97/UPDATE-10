@@ -476,7 +476,7 @@
 @media (min-width: 992px) {
     .footer-top .containerf {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 50px;
     }
 
@@ -497,7 +497,7 @@
 /* responsive for larger than 1200px screen */
 @media (min-width: 1200px) {
     .footer-top .containerf {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 50px;
     }
 
