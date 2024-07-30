@@ -774,6 +774,10 @@ h1{
         max-width: 400px;
         margin: 0 auto;
       }
+      .wrapper3 {
+    max-width: 400px;
+    margin: 0 auto;
+  }
       .wrapper1 h1{
         padding: 5px;
       }
@@ -859,6 +863,10 @@ h1{
       max-width: 900px;
       margin: 0 auto;
     }
+    .wrapper3 {
+    max-width: 90000px;
+    margin: 0 auto;
+  }
     .wrapper1 h1{
       padding: 5px;
     }
@@ -940,6 +948,10 @@ h1{
         max-width: 900px;
         margin: 0 auto;
       }
+    .wrapper3 {
+    max-width: 900px;
+    margin: 0 auto;
+  }
       .wrapper1 h1{
         padding: 5px;
       }
@@ -1021,6 +1033,10 @@ h1{
       max-width: 400px;
       margin: 0 auto;
     }
+    .wrapper3 {
+    max-width: 400px;
+    margin: 0 auto;
+  }
     
     .wrapper1 h1{
       padding: 5px;
@@ -1103,6 +1119,10 @@ h1{
         max-width: 400px;
         margin: 0 auto;
       }
+    .wrapper3 {
+    max-width:400px;
+    margin: 0 auto;
+  }
       .wrapper1 h1{
         padding: 5px;
       }
