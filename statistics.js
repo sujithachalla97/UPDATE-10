@@ -51,7 +51,7 @@ const chartData = {
   new Chart(chart, {
     type: "doughnut",
     data: {
-      labels: ['First Year', 'Second Year', 'Third Year'],
+      labels: ['Second Year', 'Third Year', 'Fourth Year'],
       datasets: [
         {
           label: "# Members",
@@ -88,7 +88,7 @@ const chartData = {
   
   
     // bar chart of the cities of all job seekers
-          let xValues2 = ['First Year', 'Second Year', 'Third Year'];
+          let xValues2 = ['Second Year', 'Second Year', 'Fourth Year'];
           xValues2 = xValues2.map(function(x){ return x.charAt(0).toUpperCase() + x.slice(1); });
           const yValues2 = [49,51,31];
           const barColors2 = ["#582bac", "#b31a4d", "#e48e2c", "#4a920f"];
