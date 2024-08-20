@@ -19,13 +19,6 @@ window.addEventListener("scroll", function() {
     }
 });
 
-// Smooth scroll to top when button is clicked
-goTopBtn.addEventListener("click", function() {
-    window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-    });
-});
 
 
 
