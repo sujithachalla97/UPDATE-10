@@ -722,17 +722,14 @@ body {
 
 
 
-
 .panel-section {
     background: #323C7D;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
     padding: 40px;
     border-radius: 15px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     margin: 20px;
     text-align: center;
     animation: fadeIn 2s ease-in-out;
-
 }
 
 .panel-section .panel {
@@ -748,7 +745,7 @@ body {
     background: #e3f2fd;
     border-radius: 15px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-    width:200px;
+    width: 200px;
 }
 
 .panel-section .counselor-photo {
@@ -766,30 +763,30 @@ body {
     transform: scale(1.1);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
-.panel-section .counselor h3 , .panel-section .counselor p{
+
+.panel-section .counselor h3,
+.panel-section .counselor p {
     color: #00509e;
 }
 
-
 .panel-section .team {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between; /* Space out the members evenly */
     width: 100%;
-    color:white;
+    color: white;
+    flex-wrap: wrap; /* Allows wrapping for responsive design */
 }
 
 .panel-section .team .member {
-    
     border: 1px solid #ddd;
     border-radius: 10px;
-     background-color: rgba(255, 255, 255, 0.2);
-   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     margin: 10px;
     padding: 20px;
-    width: calc(25% - 40px);
+    flex: 1 1 calc(25% - 40px); /* Adjusts for 4 cards in a row */
     animation: slideInUp 1.5s ease-in-out;
-     text-align: center;
+    text-align: center;
 }
 
 .panel-section .member-photo {
