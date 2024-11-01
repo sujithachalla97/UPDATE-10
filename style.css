@@ -3244,3 +3244,23 @@ testimonials {
 .owl-dot.active span {
     background-color: var(--primary-clr) !important;
 }
+
+
+
+/* Swiper Styling */
+.events .swiper {
+    width: 400px;
+    /* Width */
+    height: 380px;
+    /* Height */
+    padding: 50px 0;
+    /* Vertical padding */
+    
+   
+}
+@media (max-width: 768px) {
+    .events .swiper-slide img {
+        max-width: 100%;
+    }
+}
+
