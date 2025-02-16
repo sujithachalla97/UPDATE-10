@@ -73,6 +73,75 @@
     --shadow: 0 5px 20px 1px hsla(220, 63%, 33%, 0.1);
 
 }
+@media (max-width: 720px) {
+    .main-header {
+        padding: 30px 0;
+    }
+
+    .main-header h1 {
+        font-size: 2em;
+    }
+
+    .nbkrist-wie, .about-wie {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+        margin: 10px;
+    }
+
+    .nbkrist-wie .logo img, .about-wie .logo img {
+        width: 100px;
+        height: 100px;
+        margin: 0 auto 20px;
+    }
+
+    .nbkrist-wie .content, .about-wie .content {
+        max-width: 100%;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .cards-section {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .card {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .card h3 {
+        font-size: 1.5em;
+    }
+
+    .card-content {
+        font-size: 1em;
+    }
+
+    .read-more {
+        font-size: 0.9em;
+    }
+
+    .panel-section .panel {
+        flex-wrap: wrap;
+    }
+
+    .panel .counselor, .panel .member {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .panel .counselor img, .panel .member img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .panel .counselor h3, .panel .member h3 {
+        font-size: 1.2em;
+    }
+}
+
 
 * {
     padding: 0;
