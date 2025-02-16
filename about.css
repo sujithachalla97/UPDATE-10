@@ -1515,3 +1515,9 @@ footer {
         border-radius: 50%;
     }
 }
+
+ #card5 h2,#card4 h2,#card1 h2 {
+    font-size: 21px;
+    
+
+}
